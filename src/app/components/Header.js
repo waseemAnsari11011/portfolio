@@ -63,7 +63,7 @@ const Header = () => {
             <div className="flex flex-col items-center my-5">
               <div className="rounded-full overflow-hidden w-16 h-16 border-white border-2">
                 <Image
-                  src="/profile.jpg"
+                  src="/waseem.jpg"
                   alt="My Image"
                   width={100}
                   height={100}

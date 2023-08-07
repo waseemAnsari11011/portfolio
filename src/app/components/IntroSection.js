@@ -1,6 +1,7 @@
+"use client"
 import Image from "next/image";
 import ParticleBackground from "./ParticleBackground";
-
+import { Link as ScrollLink } from "react-scroll";
 
 const IntroSection = () => {
   return (
@@ -28,9 +29,20 @@ const IntroSection = () => {
             online stores.
           </p>
 
-          <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 shadow-2xl mt-10 ">
-           Contact me
-          </button>
+          <div className="mt-5">
+          <ScrollLink
+              to="contact-section" // Replace with the ID of the home section
+              smooth={true}
+              // onClick={() => setShowSidebar(false)} // Close sidebar on click
+              className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4"
+            >
+              Contact me
+            </ScrollLink>
+          </div>
+
+          
+
+    
         </div>
         <div className="w-950 h-950 rounded-full overflow-hidden mt-20 lg:ml-10">
           <Image
