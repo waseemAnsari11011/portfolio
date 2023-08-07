@@ -143,16 +143,16 @@ const Header = () => {
           </div>
           <div className="flex justify-center pb-5">
             {/* Social media icons */}
-            <Link href="/skills" className="mr-3">
+            <Link href="/" className="mr-3">
               <FaFacebook className="h-5 w-5" />
             </Link>
-            <Link href="/skills" className="mr-3">
+            <Link href="/" className="mr-3">
               <FaTwitter className="h-5 w-5" />
             </Link>
-            <Link href="/skills" className="mr-3">
+            <Link href="/" className="mr-3">
               <FaInstagram className="h-5 w-5" />
             </Link>
-            <Link href="/skills" className="mr-3">
+            <Link href="/" className="mr-3">
               <FaLinkedin className="h-5 w-5" />
             </Link>
           </div>
