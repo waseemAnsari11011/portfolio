@@ -30,7 +30,7 @@ const Contact = () => {
     setErrorMessage("");
     setSuccessMessage("");
     axios
-      .post("http://localhost:5000/send-email", data)
+      .post("https://waseemworks-server.netlify.app/.netlify/functions/api/send-email", data)
       .then((response) => {
         console.log("Email sent successfully:", response.data);
         setSuccessMessage("Email sent successfully!");
