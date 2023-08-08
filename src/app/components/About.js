@@ -23,7 +23,7 @@ const About = () => {
         Hi there! I'm Waseem, a passionate Full Stack Developer based in Noida, India. Ever since I wrote my first line of code, I've been captivated by the power of technology to shape the digital world. I enjoy creating seamless user experiences and building robust applications that make a positive impact.
 
         </p>
-        <div className="flex  justify-between items-center my-7">
+        {/* <div className="flex  justify-between items-center my-7">
           <div className="flex items-center mb-4 md:mb-0">
             <p className="text-5xl md:text-6xl font-black mr-2">6</p>
             <p className="text-base md:text-lg font-light text-slate-600 text-zinc-500">
@@ -36,7 +36,7 @@ const About = () => {
               Satisfied clients
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 shadow-2xl">
           Contact me
