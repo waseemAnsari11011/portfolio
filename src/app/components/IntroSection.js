@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 const IntroSection = () => {
   return (
     <div>
-      <ParticleBackground />
+      
       {/* Intro Content */}
       <div
         id="intro-section"
@@ -57,6 +57,7 @@ const IntroSection = () => {
         </div>
 
       </div>
+      <ParticleBackground />
     </div>
   );
 };
