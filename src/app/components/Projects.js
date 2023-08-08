@@ -103,7 +103,7 @@ const Projects = () => {
           july 2022- aug 2022
           </h3>
           <p className="mt-3 text-base text-slate-500">
-          The heart of the app lies in the immersive audio player. With intuitive controls, users can start, pause, rewind, and skip through chapters seamlessly. The player also remembers progress, so users can pick up where they left off, even across different devices. To enhance user convenience and security, we've integrated the Razorpay payment gateway. This enables users to purchase their chosen audiobooks with ease while ensuring their financial information remains safeguarded.
+          The heart of the app lies in the immersive audio player. With intuitive controls, users can start, pause, rewind, and skip through chapters seamlessly. I've integrated the Razorpay payment gateway. This enables users to purchase their chosen audiobooks with ease while ensuring their financial information remains safeguarded.
           </p>
           <div className="flex flex-row  mt-5">
             <div className="flex items-center mr-3">
