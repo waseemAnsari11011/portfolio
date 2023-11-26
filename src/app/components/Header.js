@@ -25,10 +25,7 @@ const Header = () => {
   };
 
   return (
-    <header
-      className="bg-gray-800 fixed top-0 left-0 right-0"
-      style={{ zIndex: 2 }}
-    >
+    <header className="bg-linkedin-blue fixed top-0 left-0 right-0 backdrop-filter backdrop-blur-lg" style={{ zIndex: 2 }}>
       <div className="container p-4 mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
           <Link href="/">Waseem</Link>

@@ -37,9 +37,9 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col lg:flex-row justify-between bg-slate-100 p-5 lg:p-10 border-b border-gray-300">
+      {/* <div className="flex flex-col lg:flex-row justify-between bg-slate-100 p-5 lg:p-10 border-b border-gray-300">
         <div className="mb-5 lg:mb-0 lg:mr-8 lg:w-1/4">
           <Image src="/ess.jpg" alt="My Image" width={500} height={500} />
         </div>
@@ -64,34 +64,35 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col lg:flex-row justify-between bg-slate-100 p-5 lg:p-10 ">
+      <div className="flex flex-col lg:flex-row justify-between bg-slate-100 p-5 lg:p-10 border-b border-gray-300">
         <div className="mb-5 lg:mb-0 lg:mr-8 lg:w-1/4">
-          <Image src="/tutor.jpg" alt="My Image" width={500} height={500} />
+          <Image src="/setufi.png" alt="My Image" width={500} height={500} />
         </div>
         <div className="w-full lg:w-3/4">
-          <h2 className="font-bold text-xl lg:text-2xl">Tutor app</h2>
+          <h2 className="font-bold text-xl lg:text-2xl">Setufi</h2>
           <h3 className="text-xs text-slate-500">
-          aug 2022- sep 2022
+            july 2023 - current
           </h3>
           <p className="mt-3 text-base text-slate-500">
-          The app allowed students to browse and book sessions with available tutors in a variety of subjects, and provided tutors with a platform to manage their schedules and connect with students
+            It is a cashflow management solution that helps businesses automate their receivable collections and improve their
+            working capital. It is a cloud-based platform that integrates with popular accounting software, such as Tally.
           </p>
           <div className="flex flex-row  mt-5">
             <div className="flex items-center mr-3">
-              <Link target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1JCKeqrHILbaUViO5ys8fW7Trtz6HbD1j/view" className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 text-sm whitespace-nowrap">
+              <Link target="_blank" rel="noopener noreferrer" href="https://portal.setufi.com/" className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 text-sm whitespace-nowrap">
                 Live Preview
               </Link>
             </div>
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <Link target="_blank" rel="noopener noreferrer" href="https://github.com/waseemAnsari11011/tutor" className="bg-blue-500 hover:bg-blue-600 text-white font-medium py-2 px-4 text-sm whitespace-nowrap">
                 Source Code
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="flex flex-col lg:flex-row justify-between bg-slate-100 p-5 lg:p-10 ">
         <div className="mb-5 lg:mb-0 lg:mr-8 lg:w-1/4">
@@ -100,10 +101,10 @@ const Projects = () => {
         <div className="w-full lg:w-3/4">
           <h2 className="font-bold text-xl lg:text-2xl">Audiobook app</h2>
           <h3 className="text-xs text-slate-500">
-          july 2022- aug 2022
+            july 2022- aug 2022
           </h3>
           <p className="mt-3 text-base text-slate-500">
-          The heart of the app lies in the immersive audio player. With intuitive controls, users can start, pause, rewind, and skip through chapters seamlessly. I've integrated the Razorpay payment gateway. This enables users to purchase their chosen audiobooks with ease while ensuring their financial information remains safeguarded.
+            The heart of the app lies in the immersive audio player. With intuitive controls, users can start, pause, rewind, and skip through chapters seamlessly. I've integrated the Razorpay payment gateway. This enables users to purchase their chosen audiobooks with ease while ensuring their financial information remains safeguarded.
           </p>
           <div className="flex flex-row  mt-5">
             <div className="flex items-center mr-3">
@@ -120,7 +121,7 @@ const Projects = () => {
         </div>
       </div>
 
-      
+
 
     </div>
   );

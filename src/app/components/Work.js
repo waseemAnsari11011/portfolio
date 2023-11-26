@@ -23,7 +23,7 @@ const Work = () => {
         WHAT I DO?
       </h1>
       <div className="mt-10 grid gap-10  md:grid-cols-2">
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaCogs size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -36,7 +36,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaCode size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -49,7 +49,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <IoPhonePortraitOutline size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -62,7 +62,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <IoMdCart size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -75,7 +75,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaExchangeAlt size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -88,7 +88,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaCheckCircle size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -101,7 +101,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaTools size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -114,7 +114,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <AiOutlineDatabase size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -127,7 +127,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaCloud size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
@@ -140,7 +140,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex p-5 bg-slate-100 group hover:bg-green-500 hover:text-white">
+        <div className="flex p-5 bg-slate-100 group hover:bg-blue-500 hover:text-white">
           <FaLaptopCode size={100} className="mr-3" />
           <div>
             <h2 className="font-semibold text-lg lg:text-xl">
